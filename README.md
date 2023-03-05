@@ -1,4 +1,141 @@
-# Getting Started with Create React App
+# Project Description
+
+## Pages
+
+- Homepage
+
+- Products Page
+
+- Blog
+
+- About US Page
+
+- Contact Us
+
+## Homepage
+
+List the most important features at the top <br>
+Choose SEO-optimized terms for your menu <br>
+Label important pages and cluster them accordingly <br>
+
+- Search Bar, Login, Signup, Cart, Logo
+
+- Gallery
+
+- Brands
+
+- Types of Product (Images)
+
+- Trending Products
+
+- Best Sellers
+
+- About us
+
+- Footer
+
+## Collections
+
+- Filter
+
+- Display Products
+
+## Product Page
+
+- Picture
+
+- Title
+
+- Price, Review, Size
+
+- Add to cart
+
+- Estimated Delivery
+
+- Free Shipping & Returns
+
+- Description
+
+  Product Details<br>
+  Shipping & Return<br>
+  Shipping Policies<br>
+  Product reviews<br>
+
+- Similar Products (You might also like)
+
+ 4-5 products in one screen
+
+- Why …
+
+## Cart
+- Title
+
+- My Shopping Cart
+
+(Product, Quantity, Price, Remove)
+
+- Checkout Card
+
+(Shipping: Free <br>
+Subtotal: … <br>
+Checkout Button) <br>
+
+- New Arrival
+
+- Recently Viewed Products
+
+## Checkout
+1. Information
+
+- Express Checkout
+
+- Contact Information
+
+ Shipping Address (Country/region, Name, Company, Address, Apartment/suite, City, State, Zip code, Phone)
+
+2. Shipping
+
+- Standard
+
+- Premium
+
+3. Payment
+
+- Contact, Ship to, Method (changeable)
+
+- Payment 
+
+Credit Card, ShopPay, Paypal, Afterpay
+
+- Billing address
+
+Same as shipping address
+
+Use a different billing address
+
+- Remember me
+
+Save my info for a faster checkout
+
+- PayNow
+
+4. Pay Content
+- products to be purchased
+- subtotal, shipping, estimated taxes -> Total
+
+## Account
+- Order History
+
+ When no history, Click start shopping
+
+- Address (Client Info)
+ 
+ Name, Email, Company, Address, Country, Postal Code, Phone
+
+- Log Out
+
+
+# Getting Started with e-commerce apo
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
