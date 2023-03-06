@@ -34,6 +34,34 @@ Label important pages and cluster them accordingly <br>
 
 - Footer
 
+## Products Page Dropdown Lists
+
+- Shop All
+
+  New Arrivals
+
+  Best Sellers
+
+- Clothes 
+
+T-shirts,  Sweatshirt, Hats, Winter coat, Footwear
+
+- Bags
+
+Backpack, Drawstrings, Duffels, Totes, Coolers, Pouches
+
+- Food
+
+Chocolate, Cake, Bread, Drink,  
+
+- Office
+
+Notebooks, Journals, Pens, Desk Accessories, Book Library
+
+- Drinkware
+
+Water bottles, Mugs, Tumblers, Glass
+
 ## Collections
 
 - Filter
@@ -133,6 +161,7 @@ Save my info for a faster checkout
  Name, Email, Company, Address, Country, Postal Code, Phone
 
 - Log Out
+
 
 
 # Getting Started with e-commerce apo
