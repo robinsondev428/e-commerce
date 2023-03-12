@@ -1,11 +1,21 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { Link } from 'react-router-dom'
+import {useNavigate} from 'react-router-dom';
+import { useUserContext } from '../../services/UserContext'
 import logo from '../../assets/logo.png'
 import drinkware from '../../assets/drinkware.png'
-
+import {logout} from '../../services/AuthService';
+import {UserContextType} from '../../types/usercontext'
 
 const Header = () => {
-  const [open, setOpen] = useState(false)
+  const {currentUser, setCurrentUser} = useUserContext();
+  const navigate = useNavigate();
+  const [open, setOpen] = useState(false);
+  const handleLogOut = () => {
+    logout();
+    setCurrentUser({});
+    navigate('/');
+  }
 
   const linkCss = "block py-2 pl-3 pr-4 font-serif rounded text-slate-300 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
 
@@ -165,7 +175,7 @@ const Header = () => {
               </li>
               <li>
                 <div className='p-4'>
-                  <a href="#" className={linkCss}>Contact Us</a>
+                  <Link to='/login' className={linkCss}>Contact Us</Link>
                 </div>
               </li>
             </ul>
