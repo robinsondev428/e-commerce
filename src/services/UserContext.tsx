@@ -5,7 +5,7 @@ import { UserType } from '../types/user'
 import {UserContextType} from '../types/usercontext'
 
 const UserContext  = createContext<UserContextType>({
-  currentUser: undefined,
+  currentUser: "",
   setCurrentUser: ()=>{}
 });
 
